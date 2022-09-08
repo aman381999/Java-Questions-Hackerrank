@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            System.out.println("================================");
+            for(int i=0;i<3;i++){
+                String s1=sc.next();
+                int x=sc.nextInt();
+                System.out.printf("%-15s%03d\n",s1,x);    
+                //step wise explanation of(%-15s%03d\n)
+                /*
+                1. ("%s",s1,x) to print s1(string) data,
+                2. ("%s%d",s1,x) to print x(decimal) data,
+                3. ("%s%d\n",s1,x) to print data in new line,
+                4. ("%-15s%d\n",s1,x) to print s1 data upto 15 characters only,
+                5. ("%-15s%03d\n",s1,x) to print number upto 3 decimal (eg: if the number is 1 then it will print 001)
+                */
+                //Complete this line
+            }
+            System.out.println("================================");
+
+    }
+}
+
+
+
